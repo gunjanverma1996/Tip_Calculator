@@ -1,0 +1,52 @@
+*{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.tipcalculator{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffdc72;;
+    border-radius: 5%;
+    transition-duration: 150ms;
+    transition-delay: 200ms;
+}
+body{
+	width: 100%;
+	background: linear-gradient(135deg, #434343, #363636 45%,  #ffbf00);
+	height: 100vh;
+}
+form input[type=text]{
+	width: 90px;
+}
+.shadow{
+    box-shadow: 5px 7px #888888 !important;
+}
+.form-class{
+	margin: 0.5rem !important;
+}
+.calculation{
+	border-radius: 2rem;
+    width: 8rem;
+    height: 2.5rem;
+    outline: none;
+}
+.form-control:focus{
+	border-color: none !important;
+	box-shadow: none !important;
+}
+.border-color:focus {
+	border : 2px solid blue;
+	border-color: blue !important;
+}
+.calculation:focus{
+	outline: none;
+	border-color: white;
+	color: white;
+	background-color: black;
+}
+#totalAmount{
+	text-align: center;
+	margin-bottom: 2rem !important;
+}
